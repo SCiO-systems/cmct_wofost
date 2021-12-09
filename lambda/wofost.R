@@ -63,6 +63,3 @@ handler = function(body, ...){
   
 
 }
-
-# t = handler("https://r-lambdas-dummy.s3.eu-central-1.amazonaws.com/wofost_input_json.json")
-# t
