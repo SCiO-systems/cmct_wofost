@@ -65,7 +65,7 @@ post_input_json = toJSON(input_json)
 
 ##create the headers for the POST call
 
-header = add_headers(.headers = c('Authorization'= 'sc10_lambda_auth', 'Content-Type' = 'application/json'))
+header = add_headers(.headers = c('Authorization'= 'SCiO_CROP_LAMBDAS', 'Content-Type' = 'application/json'))
 
 ##execute the POST call
 
