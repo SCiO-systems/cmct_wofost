@@ -69,7 +69,7 @@ header = add_headers(.headers = c('Authorization'= 'SCiO_CROP_LAMBDAS', 'Content
 
 ##execute the POST call
 
-response = POST(url = "https://lambda.wofost.scio.services", config = header , body = post_input_json)
+response = POST(url = "https://lambda.qvantum.wofost.scio.services", config = header , body = post_input_json)
 
 ##get the returned data as a R list
 
